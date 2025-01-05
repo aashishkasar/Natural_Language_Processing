@@ -118,10 +118,6 @@ resume-classifier/
 └── README.md            # Project documentation
 ```
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgments
 
 This project leverages machine learning techniques for text classification and natural language processing (NLP). Special thanks to the open-source libraries that made this project possible:
@@ -131,4 +127,9 @@ This project leverages machine learning techniques for text classification and n
 - PyPDF2
 - python-docx
 - Regex
+
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
