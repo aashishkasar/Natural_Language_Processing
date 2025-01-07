@@ -1,19 +1,19 @@
 # Resume Classifier
 
-An AI-powered Resume Classifier application built with Streamlit. This tool uses machine learning to classify resumes into different job categories based on their content. It supports PDF, DOCX, and TXT file formats.
+An AI-powered Resume Classifier application built with Streamlit. This tool uses machine learning to classify resumes into different job categories based on their content. It supports PDF, DOCX, and TXT file formats. 😊
 
-## Features
+## Features ✨
 
 - **Resume Upload**: Upload resumes in PDF, DOCX, or TXT formats.
 - **Text Extraction**: Extracts the text from resumes using:
-  - PyPDF2 for PDF files.
-  - python-docx for DOCX files.
-  - Custom encoding handling for TXT files.
+  - 📄 PyPDF2 for PDF files.
+  - 📝 python-docx for DOCX files.
+  - 📃 Custom encoding handling for TXT files.
 - **Text Cleaning**: Cleans extracted text by removing URLs, hashtags, mentions, and irrelevant characters.
-- **Prediction**: Classifies resumes into predefined job categories using a pre-trained machine learning model.
-- **User-Friendly Interface**: Interactive web interface powered by Streamlit for file upload and category display.
+- **Prediction**: Classifies resumes into predefined job categories using a pre-trained machine learning model. 🤖
+- **User-Friendly Interface**: Interactive web interface powered by Streamlit for file upload and category display. 💻
 
-## Technologies Used
+## Technologies Used 🛠️
 
 - **Streamlit**: For creating the web interface.
 - **Scikit-learn**: For machine learning and model predictions.
@@ -22,7 +22,7 @@ An AI-powered Resume Classifier application built with Streamlit. This tool uses
 - **Regex**: For cleaning and processing text data.
 - **Pickle**: For saving and loading the ML model, TF-IDF vectorizer, and label encoder.
 
-## Installation
+## Installation 🚀
 
 ### Clone the repository
 
@@ -53,15 +53,15 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-This will open the app in your browser.
+This will open the app in your browser. 🌐
 
-## Usage
+## Usage 📂
 
 1. Upload a resume in PDF, DOCX, or TXT format using the file uploader on the main page.
 2. The system extracts the text from the uploaded file.
-3. The cleaned text (optional) and the predicted job category are displayed.
+3. The cleaned text (optional) and the predicted job category are displayed. 🏷️
 
-## Model Training
+## Model Training 🤓
 
 The machine learning model used to classify resumes is a Support Vector Classifier (SVC) trained on a dataset of resumes.
 
@@ -106,7 +106,7 @@ with open('encoder.pkl', 'wb') as f:
     pickle.dump(LabelEncoder(), f)
 ```
 
-## File Structure
+## File Structure 🗂️
 
 ```plaintext
 resume-classifier/
@@ -118,7 +118,7 @@ resume-classifier/
 └── README.md            # Project documentation
 ```
 
-## Acknowledgments
+## Acknowledgments 🙏
 
 This project leverages machine learning techniques for text classification and natural language processing (NLP). Special thanks to the open-source libraries that made this project possible:
 
@@ -128,8 +128,7 @@ This project leverages machine learning techniques for text classification and n
 - python-docx
 - Regex
 
-
-## License
+## License 📜
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
