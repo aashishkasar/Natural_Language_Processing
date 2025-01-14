@@ -52,6 +52,7 @@ pip install -r requirements.txt
 ```bash
 streamlit run app.py
 ```
+https://huggingface.co/spaces/Aashish13/Resume_Screening_with_Python_NLP
 
 This will open the app in your browser. 🌐
 
